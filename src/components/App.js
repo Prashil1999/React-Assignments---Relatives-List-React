@@ -2,9 +2,9 @@ import React, {Component, useState} from "react";
 import '../styles/App.css';
 
 class App extends Component {
-    let relatives = ["darshan", "jimit", "shubham", "rp"];
+    
     render() {
-
+        let relatives = ["darshan", "jimit", "shubham", "rp"];
         return(
             <div id="main">
                 <ol Key="relativeList">
